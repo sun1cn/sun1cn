@@ -1,0 +1,21 @@
+//笔上得来终觉浅
+//绝知此事要躬行
+
+
+//题目：年龄转换成天数
+#include<stdio.h>
+
+int main(void)
+
+{
+	int Age, day, Days;
+
+	Age = 19;
+	day = 365;
+
+		Days = Age * day;
+
+	printf("You age is %d\n", Age);
+	printf("age 对应天数＝%d\n", Days);
+	return 0;
+}
